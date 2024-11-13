@@ -1,20 +1,13 @@
-# leewoulwoo.github.io
-This repository has codes, documents, logs and etc for IVU development of 4GSR
-# lcls-twincat-motion
-Twincat 3 Motion Control Utilities for LCLS PCDS EPICS
+=========================================================================================
+IVU 제어기의 제작, 시험에 필요한 모든 문서는 여기서 부터 시작이고 여기가 끝이여야 한다.
+=========================================================================================
 
-## Quick Start
-The library is installed on the plc programming nodes as `lcls-twincat-motion`. Once installed, you can create a motion-ioc-compatible setup with default settings by declaring in `Main`:
-
-;
- Attention
-
+# 주의 사항들
 ```
-M1: ST_MotionStage;
-fbMotion1: FB_MotionStage;
-```
-And invoking as:
-```
-fbMotion1(stMotionStage:=M1);
+형식: 작성자: 작성 또는 수정날짜: 반드시 기록
 ```
 
+## 페이지 나눔은....
+
+결국 코더도 여기에 정리 되어야 한다
+sphinx, read the docs로 만들어가 보자
